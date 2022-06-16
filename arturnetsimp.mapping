@@ -1,0 +1,831 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input_1" output_port_id="input_1" />
+		<IR name="input_1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1_Mean" output_port_id="input_1_Mean" />
+		<IR name="input_1_Mean" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="input_1_Sub" output_port_id="input_1_Sub" />
+		<IR name="input_1_Sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="583" output_port_id="583" />
+		<IR name="583" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="conv1" output_port_id="conv1" />
+		<IR name="conv1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_1_relu" output_port_id="activation_1_relu" />
+		<IR name="activation_1_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="max_pooling2d_1" output_port_id="max_pooling2d_1" />
+		<IR name="max_pooling2d_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="587" output_port_id="587" />
+		<IR name="587" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2a_branch2a" output_port_id="res2a_branch2a" />
+		<IR name="res2a_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_2_relu" output_port_id="activation_2_relu" />
+		<IR name="activation_2_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="591" output_port_id="591" />
+		<IR name="591" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2a_branch2b" output_port_id="res2a_branch2b" />
+		<IR name="res2a_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_3_relu" output_port_id="activation_3_relu" />
+		<IR name="activation_3_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="595" output_port_id="595" />
+		<IR name="595" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2a_branch2c" output_port_id="res2a_branch2c" />
+		<IR name="res2a_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="599" output_port_id="599" />
+		<IR name="599" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2a_branch1" output_port_id="res2a_branch1" />
+		<IR name="res2a_branch1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_1/sum_1" output_port_id="add_1" />
+		<IR name="add_1/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_4_relu" output_port_id="activation_4_relu" />
+		<IR name="activation_4_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="603" output_port_id="603" />
+		<IR name="603" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2b_branch2a" output_port_id="res2b_branch2a" />
+		<IR name="res2b_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_5_relu" output_port_id="activation_5_relu" />
+		<IR name="activation_5_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="607" output_port_id="607" />
+		<IR name="607" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2b_branch2b" output_port_id="res2b_branch2b" />
+		<IR name="res2b_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_6_relu" output_port_id="activation_6_relu" />
+		<IR name="activation_6_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="611" output_port_id="611" />
+		<IR name="611" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2b_branch2c" output_port_id="res2b_branch2c" />
+		<IR name="res2b_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_2/sum_1" output_port_id="add_2" />
+		<IR name="add_2/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_7_relu" output_port_id="activation_7_relu" />
+		<IR name="activation_7_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="615" output_port_id="615" />
+		<IR name="615" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2c_branch2a" output_port_id="res2c_branch2a" />
+		<IR name="res2c_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_8_relu" output_port_id="activation_8_relu" />
+		<IR name="activation_8_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="619" output_port_id="619" />
+		<IR name="619" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2c_branch2b" output_port_id="res2c_branch2b" />
+		<IR name="res2c_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_9_relu" output_port_id="activation_9_relu" />
+		<IR name="activation_9_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="623" output_port_id="623" />
+		<IR name="623" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res2c_branch2c" output_port_id="res2c_branch2c" />
+		<IR name="res2c_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_3/sum_1" output_port_id="add_3" />
+		<IR name="add_3/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_10_relu" output_port_id="activation_10_relu" />
+		<IR name="activation_10_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="815" output_port_id="815" />
+		<IR name="815" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dec_c2" output_port_id="dec_c2" />
+		<IR name="dec_c2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dec_relu2" output_port_id="dec_relu2" />
+		<IR name="dec_relu2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="627" output_port_id="627" />
+		<IR name="627" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3a_branch2a" output_port_id="res3a_branch2a" />
+		<IR name="res3a_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_11_relu" output_port_id="activation_11_relu" />
+		<IR name="activation_11_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="631" output_port_id="631" />
+		<IR name="631" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3a_branch2b" output_port_id="res3a_branch2b" />
+		<IR name="res3a_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_12_relu" output_port_id="activation_12_relu" />
+		<IR name="activation_12_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="635" output_port_id="635" />
+		<IR name="635" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3a_branch2c" output_port_id="res3a_branch2c" />
+		<IR name="res3a_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="639" output_port_id="639" />
+		<IR name="639" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3a_branch1" output_port_id="res3a_branch1" />
+		<IR name="res3a_branch1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_4/sum_1" output_port_id="add_4" />
+		<IR name="add_4/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_13_relu" output_port_id="activation_13_relu" />
+		<IR name="activation_13_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="643" output_port_id="643" />
+		<IR name="643" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3b_branch2a" output_port_id="res3b_branch2a" />
+		<IR name="res3b_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_14_relu" output_port_id="activation_14_relu" />
+		<IR name="activation_14_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="647" output_port_id="647" />
+		<IR name="647" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3b_branch2b" output_port_id="res3b_branch2b" />
+		<IR name="res3b_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_15_relu" output_port_id="activation_15_relu" />
+		<IR name="activation_15_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="651" output_port_id="651" />
+		<IR name="651" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3b_branch2c" output_port_id="res3b_branch2c" />
+		<IR name="res3b_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_5/sum_1" output_port_id="add_5" />
+		<IR name="add_5/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_16_relu" output_port_id="activation_16_relu" />
+		<IR name="activation_16_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="655" output_port_id="655" />
+		<IR name="655" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3c_branch2a" output_port_id="res3c_branch2a" />
+		<IR name="res3c_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_17_relu" output_port_id="activation_17_relu" />
+		<IR name="activation_17_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="659" output_port_id="659" />
+		<IR name="659" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3c_branch2b" output_port_id="res3c_branch2b" />
+		<IR name="res3c_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_18_relu" output_port_id="activation_18_relu" />
+		<IR name="activation_18_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="663" output_port_id="663" />
+		<IR name="663" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3c_branch2c" output_port_id="res3c_branch2c" />
+		<IR name="res3c_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_6/sum_1" output_port_id="add_6" />
+		<IR name="add_6/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_19_relu" output_port_id="activation_19_relu" />
+		<IR name="activation_19_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="667" output_port_id="667" />
+		<IR name="667" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res3d_branch2a" output_port_id="res3d_branch2a" />
+		<IR name="res3d_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_20_relu" output_port_id="activation_20_relu" />
+		<IR name="activation_20_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="671" output_port_id="671" />
+		<IR name="671" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="675" output_port_id="675" />
+		<IR name="675" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="679" output_port_id="679" />
+		<IR name="679" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4a_branch2a" output_port_id="res4a_branch2a" />
+		<IR name="res4a_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_23_relu" output_port_id="activation_23_relu" />
+		<IR name="activation_23_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="683" output_port_id="683" />
+		<IR name="683" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4a_branch2b" output_port_id="res4a_branch2b" />
+		<IR name="res4a_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_24_relu" output_port_id="activation_24_relu" />
+		<IR name="activation_24_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="687" output_port_id="687" />
+		<IR name="687" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4a_branch2c" output_port_id="res4a_branch2c" />
+		<IR name="res4a_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="691" output_port_id="691" />
+		<IR name="691" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4a_branch1" output_port_id="res4a_branch1" />
+		<IR name="res4a_branch1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_8/sum_1" output_port_id="add_8" />
+		<IR name="add_8/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_25_relu" output_port_id="activation_25_relu" />
+		<IR name="activation_25_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="695" output_port_id="695" />
+		<IR name="695" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4b_branch2a" output_port_id="res4b_branch2a" />
+		<IR name="res4b_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_26_relu" output_port_id="activation_26_relu" />
+		<IR name="activation_26_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="699" output_port_id="699" />
+		<IR name="699" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4b_branch2b" output_port_id="res4b_branch2b" />
+		<IR name="res4b_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_27_relu" output_port_id="activation_27_relu" />
+		<IR name="activation_27_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="703" output_port_id="703" />
+		<IR name="703" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4b_branch2c" output_port_id="res4b_branch2c" />
+		<IR name="res4b_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_9/sum_1" output_port_id="add_9" />
+		<IR name="add_9/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_28_relu" output_port_id="activation_28_relu" />
+		<IR name="activation_28_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="707" output_port_id="707" />
+		<IR name="707" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4c_branch2a" output_port_id="res4c_branch2a" />
+		<IR name="res4c_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_29_relu" output_port_id="activation_29_relu" />
+		<IR name="activation_29_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="711" output_port_id="711" />
+		<IR name="711" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4c_branch2b" output_port_id="res4c_branch2b" />
+		<IR name="res4c_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_30_relu" output_port_id="activation_30_relu" />
+		<IR name="activation_30_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="715" output_port_id="715" />
+		<IR name="715" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4c_branch2c" output_port_id="res4c_branch2c" />
+		<IR name="res4c_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_10/sum_1" output_port_id="add_10" />
+		<IR name="add_10/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_31_relu" output_port_id="activation_31_relu" />
+		<IR name="activation_31_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="719" output_port_id="719" />
+		<IR name="719" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4d_branch2a" output_port_id="res4d_branch2a" />
+		<IR name="res4d_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_32_relu" output_port_id="activation_32_relu" />
+		<IR name="activation_32_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="723" output_port_id="723" />
+		<IR name="723" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4d_branch2b" output_port_id="res4d_branch2b" />
+		<IR name="res4d_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_33_relu" output_port_id="activation_33_relu" />
+		<IR name="activation_33_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="727" output_port_id="727" />
+		<IR name="727" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4d_branch2c" output_port_id="res4d_branch2c" />
+		<IR name="res4d_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_11/sum_1" output_port_id="add_11" />
+		<IR name="add_11/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_34_relu" output_port_id="activation_34_relu" />
+		<IR name="activation_34_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="731" output_port_id="731" />
+		<IR name="731" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4e_branch2a" output_port_id="res4e_branch2a" />
+		<IR name="res4e_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_35_relu" output_port_id="activation_35_relu" />
+		<IR name="activation_35_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="735" output_port_id="735" />
+		<IR name="735" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4e_branch2b" output_port_id="res4e_branch2b" />
+		<IR name="res4e_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_36_relu" output_port_id="activation_36_relu" />
+		<IR name="activation_36_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="739" output_port_id="739" />
+		<IR name="739" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4e_branch2c" output_port_id="res4e_branch2c" />
+		<IR name="res4e_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_12/sum_1" output_port_id="add_12" />
+		<IR name="add_12/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_37_relu" output_port_id="activation_37_relu" />
+		<IR name="activation_37_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="743" output_port_id="743" />
+		<IR name="743" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4f_branch2a" output_port_id="res4f_branch2a" />
+		<IR name="res4f_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_38_relu" output_port_id="activation_38_relu" />
+		<IR name="activation_38_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="747" output_port_id="747" />
+		<IR name="747" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4f_branch2b" output_port_id="res4f_branch2b" />
+		<IR name="res4f_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_39_relu" output_port_id="activation_39_relu" />
+		<IR name="activation_39_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="751" output_port_id="751" />
+		<IR name="751" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res4f_branch2c" output_port_id="res4f_branch2c" />
+		<IR name="res4f_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_13/sum_1" output_port_id="add_13" />
+		<IR name="add_13/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_40_relu" output_port_id="activation_40_relu" />
+		<IR name="activation_40_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="755" output_port_id="755" />
+		<IR name="755" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5a_branch2a" output_port_id="res5a_branch2a" />
+		<IR name="res5a_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_41_relu" output_port_id="activation_41_relu" />
+		<IR name="activation_41_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="759" output_port_id="759" />
+		<IR name="759" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5a_branch2b" output_port_id="res5a_branch2b" />
+		<IR name="res5a_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_42_relu" output_port_id="activation_42_relu" />
+		<IR name="activation_42_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="763" output_port_id="763" />
+		<IR name="763" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5a_branch2c" output_port_id="res5a_branch2c" />
+		<IR name="res5a_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="767" output_port_id="767" />
+		<IR name="767" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5a_branch1" output_port_id="res5a_branch1" />
+		<IR name="res5a_branch1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_14/sum_1" output_port_id="add_14" />
+		<IR name="add_14/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_43_relu" output_port_id="activation_43_relu" />
+		<IR name="activation_43_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="771" output_port_id="771" />
+		<IR name="771" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5b_branch2a" output_port_id="res5b_branch2a" />
+		<IR name="res5b_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_44_relu" output_port_id="activation_44_relu" />
+		<IR name="activation_44_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="775" output_port_id="775" />
+		<IR name="775" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5b_branch2b" output_port_id="res5b_branch2b" />
+		<IR name="res5b_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_45_relu" output_port_id="activation_45_relu" />
+		<IR name="activation_45_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="779" output_port_id="779" />
+		<IR name="779" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5b_branch2c" output_port_id="res5b_branch2c" />
+		<IR name="res5b_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_15/sum_1" output_port_id="add_15" />
+		<IR name="add_15/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_46_relu" output_port_id="activation_46_relu" />
+		<IR name="activation_46_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="783" output_port_id="783" />
+		<IR name="783" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5c_branch2a" output_port_id="res5c_branch2a" />
+		<IR name="res5c_branch2a" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_47_relu" output_port_id="activation_47_relu" />
+		<IR name="activation_47_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="787" output_port_id="787" />
+		<IR name="787" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5c_branch2b" output_port_id="res5c_branch2b" />
+		<IR name="res5c_branch2b" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_48_relu" output_port_id="activation_48_relu" />
+		<IR name="activation_48_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="791" output_port_id="791" />
+		<IR name="791" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="res5c_branch2c" output_port_id="res5c_branch2c" />
+		<IR name="res5c_branch2c" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="add_16/sum_1" output_port_id="add_16" />
+		<IR name="add_16/sum_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="activation_49_relu" output_port_id="activation_49_relu" />
+		<IR name="activation_49_relu" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="795" output_port_id="795" />
+		<IR name="795" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="aspp_Conv_1" output_port_id="aspp_Conv_1" />
+		<IR name="aspp_Conv_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="aspp_Relu_1" output_port_id="aspp_Relu_1" />
+		<IR name="aspp_Relu_1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="799" output_port_id="799" />
+		<IR name="799" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="aspp_Conv_2" output_port_id="aspp_Conv_2" />
+		<IR name="aspp_Conv_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="aspp_Relu_2" output_port_id="aspp_Relu_2" />
+		<IR name="aspp_Relu_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="803" output_port_id="803" />
+		<IR name="803" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="aspp_Conv_3" output_port_id="aspp_Conv_3" />
+		<IR name="aspp_Conv_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="aspp_Relu_3" output_port_id="aspp_Relu_3" />
+		<IR name="aspp_Relu_3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="807" output_port_id="807" />
+		<IR name="807" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="aspp_Conv_4" output_port_id="aspp_Conv_4" />
+		<IR name="aspp_Conv_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="aspp_Relu_4" output_port_id="aspp_Relu_4" />
+		<IR name="aspp_Relu_4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="catAspp" output_port_id="catAspp" />
+		<IR name="catAspp" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="811" output_port_id="811" />
+		<IR name="811" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dec_c1" output_port_id="dec_c1" />
+		<IR name="dec_c1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dec_relu1" output_port_id="dec_relu1" />
+		<IR name="dec_relu1" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="dec_upsample1_W" output_port_id="dec_upsample1_W" />
+		<IR name="dec_upsample1_W" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dec_upsample1" output_port_id="dec_upsample1" />
+		<IR name="dec_upsample1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dec_crop1" output_port_id="dec_crop1" />
+		<IR name="dec_crop1" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="dec_cat1" output_port_id="dec_cat1" />
+		<IR name="dec_cat1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="819" output_port_id="819" />
+		<IR name="819" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dec_c3" output_port_id="dec_c3" />
+		<IR name="dec_c3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dec_relu3" output_port_id="dec_relu3" />
+		<IR name="dec_relu3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="823" output_port_id="823" />
+		<IR name="823" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dec_c4" output_port_id="dec_c4" />
+		<IR name="dec_c4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dec_relu4" output_port_id="dec_relu4" />
+		<IR name="dec_relu4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="scorer_W" output_port_id="scorer_W" />
+		<IR name="scorer_W" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="scorer" output_port_id="scorer" />
+		<IR name="scorer" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dec_upsample2_W" output_port_id="dec_upsample2_W" />
+		<IR name="dec_upsample2_W" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="dec_upsample2" output_port_id="dec_upsample2" />
+		<IR name="dec_upsample2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="dec_crop2" output_port_id="dec_crop2" />
+		<IR name="dec_crop2" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="softmax_out_Transpose1" output_port_id="softmax_out_Transpose1" />
+		<IR name="softmax_out_Transpose1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="softmax_out" output_port_id="softmax_out" />
+		<IR name="softmax_out" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="softmax_out_Transpose2" output_port_id="softmax_out_Transpose2" />
+		<IR name="softmax_out_Transpose2" output_port_id="2" />
+	</map>
+</mapping>
